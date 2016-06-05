@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">OTP</string>
+  <string name="action_settings">Settings</string>
+  <string name="quickstart_message">QuickStart</string>
+  <string name="subscribe_to_news">Subscrbe to NEws</string>
+  <string name="log_token">LogToken</string>
+  <string name="OTP_Message">OTP FOR BOTumsup</string>
+  <string name="otp_key">otp</string>
+  <string name="validation">Use OTP Number from bellow circle for validation</string>
+</resources>
