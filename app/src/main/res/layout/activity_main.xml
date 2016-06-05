@@ -11,24 +11,25 @@
               tools:context="com.google.firebase.quickstart.fcm.MainActivity">
 
   <TextView
-      android:layout_height="wrap_content"
       android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
       android:text="@string/validation"
-      android:textSize="@dimen/validation_txt"
-      android:textColor="@color/colorAccent"/>
+      android:textColor="@color/colorAccent"
+      android:textSize="@dimen/validation_txt"/>
+
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:gravity="center">
 
-      <TextView
-          android:id="@+id/otp_text"
-          android:background="@drawable/circle"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:gravity="center"
-          android:textColor="@color/colorPrimaryDark"
-          android:textSize="@dimen/otp_text"/>
+    <TextView
+        android:id="@+id/otp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/otp_text"/>
 
   </LinearLayout>
 
