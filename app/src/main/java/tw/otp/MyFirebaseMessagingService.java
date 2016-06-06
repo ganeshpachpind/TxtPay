@@ -36,7 +36,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.lock)
                 .setContentTitle(getApplicationContext().getString(R.string.OTP_Message))
-                .setContentText("OTP IS :" + messageBody)
+                .setContentText("Token IS :" + messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
                 .setContentIntent(pendingIntent);

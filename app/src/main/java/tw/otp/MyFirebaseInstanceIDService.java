@@ -17,7 +17,7 @@ import retrofit2.Retrofit;
 
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private static final String TAG = MyFirebaseInstanceIDService.class.getSimpleName();
-    public static final String SERVER_URL = "http://90595ebd.ngrok.io";
+    public static final String SERVER_URL = "https://2a44f2b9.ngrok.io";
 
     @Override
     public void onTokenRefresh() {
